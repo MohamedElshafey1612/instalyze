@@ -4,8 +4,8 @@ import { config } from "dotenv";
 import cors from "cors";
 import multer from "multer";
 
-import loginRoute from "./routes/login.js";
-import registerRoute from "./routes/register.js";
+import loginRoute from "./login.js";
+import registerRoute from "./register.js";
 
 config();
 
